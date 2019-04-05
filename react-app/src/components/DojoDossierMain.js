@@ -28,6 +28,7 @@ class DojoDossierMain extends Component {
               this.setState({addtaberror:""});
               this.setState({addedItemName:""});
               this.setState({addedlistItem:""});
+              this.setState({error:""});
            })
            .catch((error) => {
               this.setState({error:"Server connection failed"});
@@ -90,6 +91,7 @@ class DojoDossierMain extends Component {
               this.setState({addtaberror:""});
               this.setState({addedItemName:""});
               this.setState({addedlistItem:""});
+              this.setState({error:""});
               
              })
              .catch((error) => {
@@ -120,6 +122,7 @@ class DojoDossierMain extends Component {
                 this.setState({addtaberror:""});
                 this.setState({addedItemName:""});
                 this.setState({addedlistItem:""});
+                this.setState({error:""});
               })
               .catch((error) => {
                   this.setState({error:"Server connection failed"});
