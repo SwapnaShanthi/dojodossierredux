@@ -40,7 +40,7 @@ export const tabReducer=(state =initialState, action)=>{
       case 'ADD_TAB_LIST':
             return Object.assign({},
                                  state,
-                                 { tabItems:action.payload,nextID:state.nextID}
+                                 { tabItems:action.payload,nextID:action.payload[action.payload.length-1].id+1}
                                                     )                         
        default:
             return state;
@@ -51,7 +51,7 @@ export const tabReducer=(state =initialState, action)=>{
 
 const initialState = { 
     tabItems: [],
-     nextID:9              
+     nextID:0             
 };
 
 export function configureStore(initialState = initialState) { // initialState = initialState | {}
