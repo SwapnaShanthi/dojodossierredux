@@ -1,0 +1,124 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+    width:100%;
+
+  border-top-right-radius: 15px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    width:100%;
+
+  border-top-right-radius: 15px;
+
+    
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+      background-color: rgb(212, 62, 62);
+  }
+  
+  /* Style the tab content */
+  .tabcontentactive {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  .tabcontentdisable{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  .displaytab{
+      display:flex;
+      flex-direction: row;flex-wrap: nowrap;
+      width:100%
+  }
+  .displaydetails{
+      text-align: left;
+  }
+  .outerdiv{
+
+      width:1000px;
+      margin-left:50px;
+  }
+  .inputbottomdiv{
+      text-align: left;
+      width:auto;
+      padding-bottom: 20px;
+      margin-top:50px;
+  }
+  .inputbottomboxstyle{
+    width:400px;
+    height:30px;
+    margin-left:10px;
+    
+}
+.bottombuttonstyle{
+    margin-left:10px;
+    width:100px;
+    height:30px;
+    background-color:white;
+
+}
+.inputtopboxstyle{
+    width:100px;
+    height:30px;
+    margin-left:10px;
+    
+}
+.topbuttonstyle{
+    margin-left:10px;
+    margin-top:20px;
+    width:60px;
+    height:30px;
+    background-color:white;
+
+}
+.inputtopdiv{
+    text-align: right;
+    width:auto;
+    height:100%;
+    display:flex ;
+    flex-direction: column;
+    float:right;
+}
+h1{
+    text-align: left;
+    padding-left:10px;
+
+}
+.spanstyle{
+    margin-right:6px;
+    padding-top:10px;
+}
+.errormessagediv{
+    font-size: 12px;
+    color:rgb(175, 56, 76);
+    margin-left: 10px;
+    margin-top: 3px;
+    padding-bottom: 5px;
+
+}
